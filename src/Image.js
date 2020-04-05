@@ -1,7 +1,7 @@
 import Canvas from './Canvas';
 import {webviewConstructor, webviewProperties, webviewEvents} from './webview-binders';
 
-@webviewProperties({crossOrigin: undefined, height: undefined, src: undefined, width: undefined})
+@webviewProperties({crossOrigin: 'anonymous', height: undefined, src: undefined, width: undefined})
 @webviewEvents(['load', 'error'])
 @webviewConstructor('Image')
 export default class Image {

@@ -1,7 +1,9 @@
 <div align="center">
 <img src="https://emojipedia-us.s3.amazonaws.com/thumbs/240/apple/96/fireworks_1f386.png"/>
-<h1>react-native-canvas</h1>
+<h1>react-native-canvas-anonymous</h1>
 </div>
+
+## Changed WebView property crossOrigin to "anonymous" 
 
 A Canvas component for React Native
 
