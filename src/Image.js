@@ -19,6 +19,7 @@ export default class Image {
     if (this.height) {
       this.height = height;
     }
+    this.crossOrigin = 'anonymous';
   }
 
   postMessage = message => {
